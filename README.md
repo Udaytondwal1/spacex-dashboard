@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-### [`Live`](https://spacex-dashboard-a377pc533-udaytondwal1s-projects.vercel.app/)
+### Visit Site - [`Live`](https://spacex-dashboard-a377pc533-udaytondwal1s-projects.vercel.app/)
 
 First, run the development server:
 
