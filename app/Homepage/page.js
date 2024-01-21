@@ -3,7 +3,7 @@ import Sidebar from '../Sidebar'
 import Dashboard from '../components/Dashboard/Dashboard'
 
 export const Homepage = async () => {
-  let past_data = await fetch("https://api.spacexdata.com/v4/launches/upcoming")
+  let past_data = await fetch("https://api.spacexdata.com/v4/launches")
   .then((res) => {
     return res.json();
   })
