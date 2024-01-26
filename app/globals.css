@@ -102,7 +102,7 @@
   display: none;
 }
 
-@media screen and (max-height: 844px) {
+@media screen and (max-height: 914px) {
   .btn-container {
     height: 35vh;
     width: 75vw;
