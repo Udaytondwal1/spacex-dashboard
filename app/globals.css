@@ -102,13 +102,12 @@
   display: none;
 }
 
-@media screen and (max-height: 914px) {
+@media screen and (min-width: 375px) and (max-width: 412px) {
   .btn-container {
     height: 35vh;
     width: 75vw;
-    margin: auto;
     margin-top: 18vh;
-    padding: 3vh;
+    margin-right: 8vw;
   }
 
   .btn-container:hover {
@@ -117,7 +116,6 @@
   }
 
 .btn-container .h2 {
-  margin: 3vh 12vw;
   text-align: center;
   font-size: medium;
 }
@@ -140,39 +138,21 @@
 
 .btn-container .user-img {
   border-radius: 50%;
+  margin-bottom: 4vh;
+  
 }
 
 .btn-container .logout-btn {
-  height: 7vh;
-  width: 12vw;
-  font-size: larger;
-  font-weight: 600;
-  border: none;
-  border-radius: 10px;
+  height: 5vh;
+  width: 20vw;
+  font-size: medium;
   margin: 0 2vw;
-  color: red;
-  transition: all ease 0.5s;
 }
 
-.btn-container .logout-btn:hover {
-  background-color: crimson;
-  color: white;
-  cursor: pointer;
-}
 
 .btn-container .next-btn {
-  height: 7vh;
-  width: 12vw;
-  font-size: larger;
-  font-weight: 600;
-  border: none;
-  border-radius: 10px;
-  transition: all ease 0.5s;
-}
-
-.btn-container .next-btn:hover {
-  background-color: black;
-  color: white;
-  cursor: pointer;
+  height: 5vh;
+  width: 20vw;
+  font-size: medium;
 }
 }
