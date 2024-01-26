@@ -1,97 +1,178 @@
 .app {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    background-image: url('./images/pexels-spacex-23764.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-image: url("./images/pexels-spacex-23764.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 1;
 }
 
-.btn-container{
-    height: 45vh;
-    width: 45vw;
-    margin: auto;
-    margin-top: 18vh;
-    padding: 3vh;
-    border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.172);
-    backdrop-filter: blur(4px);
-    transition: all ease .8s;
-    color: white;
-    text-align: center;
+.btn-container {
+  height: 45vh;
+  width: 45vw;
+  margin: auto;
+  margin-top: 18vh;
+  padding: 3vh;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.172);
+  backdrop-filter: blur(4px);
+  transition: all ease 0.8s;
+  color: white;
+  text-align: center;
+  z-index: 1;
 }
 
-.btn-container:hover{
-    width: 46vw;
-    height: 46vh;
-    backdrop-filter: blur(8px);
+.btn-container:hover {
+  width: 46vw;
+  height: 46vh;
+  backdrop-filter: blur(8px);
 }
 
 .btn-container .h2 {
-    margin: 3vh 12vw;
-    text-align: center;
+  margin: 3vh 12vw;
+  text-align: center;
 }
 
 .btn-container .login-btn {
-    height: 7vh;
-    width: 25vw;
-    font-size: larger;
-    font-weight: 600;
-    border: none;
-    border-radius: 10px;
-    margin: 8vh 10vw;
-    transition: all ease .8s;
+  height: 7vh;
+  width: 25vw;
+  font-size: larger;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  margin: 8vh 10vw;
+  transition: all ease 0.8s;
 }
 
-.btn-container .login-btn:hover{
-    background-color: black;
-    color: white;
-    cursor: pointer;
+.btn-container .login-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }
 
 .btn-container .footer {
-    font-size: small;
-    font-weight: 500;
-    margin: 0 11vw;
-    position: relative;
-    top: 10vh;
+  font-size: small;
+  font-weight: 500;
+  margin: 0 11vw;
+  position: relative;
+  top: 10vh;
 }
 
 .btn-container .user-img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .btn-container .logout-btn {
-    height: 7vh;
-    width: 12vw;
-    font-size: larger;
-    font-weight: 600;
-    border: none;
-    border-radius: 10px;
-    margin: 0 2vw;
-    color: red;
-    transition: all ease .5s;
+  height: 7vh;
+  width: 12vw;
+  font-size: larger;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  margin: 0 2vw;
+  color: red;
+  transition: all ease 0.5s;
 }
 
 .btn-container .logout-btn:hover {
-    background-color: crimson;
-    color: white;
-    cursor: pointer;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
 }
 
 .btn-container .next-btn {
-    height: 7vh;
-    width: 12vw;
-    font-size: larger;
-    font-weight: 600;
-    border: none;
-    border-radius: 10px;
-    transition: all ease .5s;
+  height: 7vh;
+  width: 12vw;
+  font-size: larger;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  transition: all ease 0.5s;
 }
 
-.btn-container .next-btn:hover{
-    background-color: black;
-    color: white;
-    cursor: pointer;
+.btn-container .next-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#Caution {
+  display: none;
+}
+
+@media screen and (max-height: 844px) {
+  .btn-container {
+    height: 35vh;
+    width: 75vw;
+    margin: auto;
+    margin-top: 18vh;
+    padding: 3vh;
+  }
+
+  .btn-container:hover {
+    height: 36vh;
+    width: 76vw;
+  }
+
+.btn-container .h2 {
+  margin: 3vh 12vw;
+  text-align: center;
+  font-size: medium;
+}
+
+.btn-container .login-btn {
+  height: 7vh;
+  width: 65vw;
+  margin: 5vh 5vw;
+  margin-bottom: 1vh;
+}
+
+
+.btn-container .footer {
+  font-size: x-small;
+  font-weight: 500;
+  margin: 0 1vw;
+  position: relative;
+  top: 10vh;
+}
+
+.btn-container .user-img {
+  border-radius: 50%;
+}
+
+.btn-container .logout-btn {
+  height: 7vh;
+  width: 12vw;
+  font-size: larger;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  margin: 0 2vw;
+  color: red;
+  transition: all ease 0.5s;
+}
+
+.btn-container .logout-btn:hover {
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-container .next-btn {
+  height: 7vh;
+  width: 12vw;
+  font-size: larger;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  transition: all ease 0.5s;
+}
+
+.btn-container .next-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
 }

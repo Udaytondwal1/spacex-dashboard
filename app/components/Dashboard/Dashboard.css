@@ -85,3 +85,87 @@ body {
   font-size: 4vh;
 }
 
+@media screen and (max-height: 844px) {
+  #scroll_1{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 67vh;
+  }
+  
+  #scroll_1::-webkit-scrollbar {
+    display:none;
+  }
+  
+  #scroll_2{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 73.5vh;
+  }
+  
+  #scroll_2::-webkit-scrollbar {
+    display:none;
+  }
+  
+  .dashboard {
+    height: 90vh;
+    width: 65vw;
+    display: grid;
+    grid-template-areas:
+      "aside past-l upcoming"
+      "aside past-l upcoming"
+      "aside past-l upcoming";
+  
+    margin-left: 4vw;
+    margin-top: 5vh;
+    border-radius: 15px;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.155);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+  }
+  
+  .past-launches {
+    width: 35vw;
+    grid-area: past-l;
+  }
+  
+  .past-launches .headings {
+    font-size: 5vh;
+    color: white;
+    margin-left: 9vw;
+  }
+  
+  .filters {
+    margin: 2vh 2vw;
+    font-weight: 600;
+  }
+  
+  .filters input {
+    padding: 1vh;
+    margin: 0.5vw;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .filters input:hover {
+    cursor: pointer;
+  }
+  
+  .filters span {
+    margin: 1vh;
+    color: white;
+  }
+  
+  .upcoming {
+    grid-area: upcoming;
+    padding: 2vh;
+    color: white;
+  }
+  
+  .upcoming .headings {
+    margin-left: 0.5vw;
+    font-size: 4vh;
+  }
+  
+}

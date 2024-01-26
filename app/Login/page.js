@@ -63,6 +63,7 @@ function Login(props) {
         <span className="footer">@2024 SpaceX TM - All Rights Reserved | Privacy Policy</span>
         </div>
       )}
+      <div id='Caution'>Open Site in Desktop Mode</div>
     </>
   );
 }
