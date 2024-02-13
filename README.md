@@ -1,6 +1,6 @@
 <h1 align="center" id="title">SpaceX - Dashboard</h1>
 
-<p id="description">In this App User Search for any missions from specefic date. See Upcoming and Past Launches of Rockets and Missions. View the optimal layout for each page depending on their device's screen size. See hover states for all interactive elements on the page. Made Completely with Next JS and Dummy API. for Missions information i've used Dummy API of SpaceX Created by Users.</p>
+<p id="description">In this App User Search for any missions and Launches of SpaceX Space Exploration Company, US from specefic date. See Upcoming and Past Launches of Rockets and Missions. View the optimal layout for each page depending on their device's screen size. See hover states for all interactive elements on the page. Made Completely with Next JS and Dummy API. for Missions information i've used Dummy API of SpaceX Created by Users.</p>
 
 <h2>🚀 Demo</h2>
 
