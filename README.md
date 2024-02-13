@@ -1,10 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" id="title">SpaceX - Dashboard</h1>
 
-## Getting Started
+<p id="description">In this App User Search for any missions from specefic date. See Upcoming and Past Launches of Rockets and Missions. View the optimal layout for each page depending on their device's screen size. See hover states for all interactive elements on the page. Made Completely with Next JS and Dummy API. for Missions information i've used Dummy API of SpaceX Created by Users.</p>
 
-### Visit Site - [`Live`](https://spacex-dashboard-a377pc533-udaytondwal1s-projects.vercel.app/)
+<h2>🚀 Demo</h2>
 
-First, run the development server:
+[https://spacex-dashboard-seven.vercel.app/](https://spacex-dashboard-seven.vercel.app/)
+
+  
+  
+<h2>🧐 Features</h2>
+
+Here're some of the project's best features:
+
+*   Initially show Past and Upcoming Launches.
+*   You can search for Mission from specefic date.
+*   show mission informations like Failed, aborted or success.
+
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Clone this repository using CMD/Terminal</p>
+
+```
+git clone Repo_URL
+```
+
+<p>2. Run this command in your IDE terminal</p>
+
+```
+npm install
+```
+
+<p>3. then run this command</p>
 
 ```bash
 npm run dev
@@ -15,24 +42,29 @@ pnpm dev
 # or
 bun dev
 ```
+Now, Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  
+  
+<h2>💻 Built with</h2>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Technologies used in the project:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+*   HTML5
+*   CSS3
+*   React JS
+*   NEXT JS
+*   Fetch and Axios
+*   API
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h2>💖Like my work?</h2>
 
-## Learn More
+Please give Star if you Like it. Contact Me for any Queries/Issue.<p>https://www.instagram.com/udaytondwal/</p>
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### What I learned
+ I Learn how to Use JS fetch to Get Response from API, also learn how to display JSON data and More about JSON Structure. also learning new react library for both client and server side rendering is so enjoyable and challlenging .
+ 
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Website - [Uday Tondwal](https://github.com/Udaytondwal1)
+- LinkedIn - [@udaytondwal](https://www.linkedin.com/in/udaytondwal/)
