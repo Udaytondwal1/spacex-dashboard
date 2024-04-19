@@ -5,7 +5,7 @@ body {
 
 
 .main .card {
-    height: 85vh;
+    height: 90%;
     width: 20vw;
     background-color: rgba(0, 0, 0, 0.155);
     backdrop-filter: blur(10px);

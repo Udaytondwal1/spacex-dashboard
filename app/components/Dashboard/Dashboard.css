@@ -24,7 +24,7 @@ body {
 }
 
 .dashboard {
-  height: 90vh;
+  height: 90%;
   width: 75vw;
   display: grid;
   grid-template-areas:
