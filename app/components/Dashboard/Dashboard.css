@@ -25,14 +25,14 @@ body {
 
 .dashboard {
   height: 90vh;
-  width: 65vw;
+  width: 75vw;
   display: grid;
   grid-template-areas:
     "aside past-l upcoming"
     "aside past-l upcoming"
     "aside past-l upcoming";
 
-  margin-left: 4vw;
+  margin-left: 2vw;
   margin-top: 5vh;
   border-radius: 15px;
   justify-content: space-around;
@@ -42,12 +42,12 @@ body {
 }
 
 .past-launches {
-  width: 35vw;
+  width: 38vw;
   grid-area: past-l;
 }
 
 .past-launches .headings {
-  font-size: 5vh;
+  font-size: 4vh;
   color: white;
   margin-left: 9vw;
 }
@@ -75,6 +75,7 @@ body {
 }
 
 .upcoming {
+  width: 30vw;
   grid-area: upcoming;
   padding: 2vh;
   color: white;
@@ -84,8 +85,8 @@ body {
   margin-left: 0.5vw;
   font-size: 4vh;
 }
-
-@media screen and (min-width: 375px) and (max-width: 412px) {
+/* 
+@media screen and (min-width: 320px) and (max-width: 412px) {
   #scroll_1{
     overflow-x: hidden;
     overflow-y: auto;
@@ -168,4 +169,4 @@ body {
     font-size: 4vh;
   }
   
-}
+} */

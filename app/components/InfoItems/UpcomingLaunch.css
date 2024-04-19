@@ -13,11 +13,11 @@
   display: flex;
   font-weight: 500;
 }
-
+/* 
 .info-cards .card .date {
   height: 4vh;
-  width: 7vw;
-}
+  width: 4vw;
+} */
 
 .info-cards .card .info {
   display: flex;
@@ -25,11 +25,11 @@
 }
 
 .info-cards .card .mission-name {
-  font-size: 4vh;
+  font-size: 3vh;
   font-weight: 700;
 }
 
-@media screen and (min-width: 375px) and (max-width: 412px) {
+/* @media screen and (min-width: 375px) and (max-width: 412px) {
   .container-2 {
     height: 30vh;
     width: 40vw;
@@ -62,4 +62,4 @@
     font-size: 4vh;
     font-weight: 700;
   }
-}
+} */
