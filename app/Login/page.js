@@ -48,13 +48,15 @@ function Login(props) {
       {profile ? (
         <div className="btn-container">
             <img src={profile.picture} alt="user image" className="user-img"/>
+            <div>
             <h3>User Logged in</h3>
             <p>Name: {profile.name}</p>
             <p>Email: {profile.email}</p>
-            <br />
-            <br />
+            </div>
+            <div>
             <button onClick={logOut} className="logout-btn">LogOut</button>
             <Link href='./Homepage'><button className="next-btn">Next</button></Link>
+            </div>
         </div>
       ) : (
         <div className="btn-container">
